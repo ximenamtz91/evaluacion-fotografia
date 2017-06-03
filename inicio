@@ -34,12 +34,41 @@
    	</div>
     <div id="imagen2">
  		<img src="imagenes/retrato.jpg" alt="">
-        <figcaption>Retratos</figcaption>
+        	<figcaption>Retratos</figcaption>
+    </div>
+    </div>
+        </section>
+        
+    <footer class="body">
+    <section id="contacto">
+        <div class="c1">
+            <h1>Contacto</h1>
+            <p>ximena@gmail.com</p>
+            <p>Estado de México</p>
+            <p>Tel: 123456</p>
         </div>
+    </section>
+    <section id="terminos">
+        <div class="c2">
+            <h1>Términos</h1> 
+            <p>Conoce nuestros términos y condiciones...</p>
+        </div>
+    </section>
+    <section id="redes_sociales">
+    	<div class="c3">
+        <h1>Redes Sociales</h1>
+        <p>Comparte en nuestras redes</p>
+            <img src="imagenes/logo_facebook.png" id="facebook">Comenzando Fotografía<br/>
+            <img src="imagenes/logo_twitter.png" id="twitter">Comenzando Fotografía<br/>
+            <img src="imagenes/logo_instagram.png" id="instagram">Comenzando Fotografía
+        </div>
+	</section>
+    <section id="derechos">
+    	<div class="c4">
+        <h1>Derechos</h1>
+        <p>Copyright - Ximena Martínez - 2020</p>
         </div>
         </section>
-    <footer>
-    
     </footer>
 
 
