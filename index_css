@@ -33,9 +33,13 @@ header h1{
 	
 header nav a{
 	color: white;
-	padding-right: 2em;	
+	padding-right: 1em;
+	font-size: 18px;
 		}
-	
+		
+header nav{
+	margin: auto;
+}
 
 #linkinicio{
 	text-decoration: none;
@@ -127,16 +131,12 @@ footer{
 }
 
 footer section{
-	border: 1px;
-	margin: auto;
-	border: 0;
-	padding: .02em;
-	width: 80%;
+	margin: 30px;
 }
 
 #contacto{
 	width: 220px;
-	text-align: left;
+	text-align: left ;
 }
 
 #terminos{
@@ -157,3 +157,15 @@ footer img{
 	width: 220px;
 	text-align: left;
 }
+
+footer a{
+	color: black;
+}
+
+@media (max-width: 900px){
+
+#contenido{
+	text-align: center;
+}
+
+
