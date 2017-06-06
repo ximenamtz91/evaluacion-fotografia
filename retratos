@@ -13,7 +13,7 @@
         <h1>Comenzando con los Retratos</h1>   
 		<nav>
         <a href="index.html" id="linkinicio">Inicio</a> 
-        <a href="paisajes.html" id="linkpaisajes">Paisajes </a> 
+        <a href="paisajes.html" id="linkpaisajes">Paisajes</a> 
         <a href="" id="linkretratos">Retratos</a>
         </nav>
         </header>
@@ -52,7 +52,7 @@
     <section id="contacto">
         <div class="c1">
             <h1>Contacto</h1>
-            <p>ximena@gmail.com</p>
+            <p><a href="mailto:ximena@gmail.com">ximena@gmail.com</a></p>
             <p>Estado de México</p>
             <p>Tel: 123456</p>
         </div>
@@ -67,9 +67,9 @@
     	<div class="c3">
         <h1>Redes Sociales</h1>
         <p>Comparte en nuestras redes</p>
-            <img src="imagenes/logo_facebook.png" id="facebook">Comenzando Fotografía<br/>
-            <img src="imagenes/logo_twitter.png" id="twitter">Comenzando Fotografía<br/>
-            <img src="imagenes/logo_instagram.png" id="instagram">Comenzando Fotografía
+            <img src="imagenes/logo_facebook.png" id="facebook"> Comenzando Fotografía<br/>
+            <img src="imagenes/logo_twitter.png" id="twitter"> @Comenzando Fotografía<br/>
+            <img src="imagenes/logo_instagram.png" id="instagram"> Comenzando Fotografía
         </div>
 	</section>
     <section id="derechos">
