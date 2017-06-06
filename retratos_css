@@ -33,8 +33,13 @@ header h1{
 	
 header nav a{
 	color: white;
-	padding-right: 2em;	
+	padding-right: 1em;
+	font-size: 20px;
 		}
+		
+header nav{
+	margin: auto;
+}
 
 #linkretratos{
 	text-decoration: none;
@@ -126,11 +131,7 @@ footer{
 }
 
 footer section{
-	border: 1px;
-	margin: auto;
-	border: 0;
-	padding: .02em;
-	width: 80%;
+	margin: 30px;
 }
 
 #contacto{
@@ -155,4 +156,8 @@ footer img{
 #derechos{
 	width: 220px;
 	text-align: left;
+}
+
+footer a{
+	color: black;
 }
