@@ -33,11 +33,15 @@ header h1{
 	
 header nav a{
 	color: white;
-	padding-right: 2em;	
+	padding-right: 1em;
+	font-size: 20px;
 		}
-	
+		
+header nav{
+	margin: auto;
+}
 
-#linkinicio{
+#linkpaisajes{
 	text-decoration: none;
 }
 
@@ -49,7 +53,7 @@ article{
 }
 
 #contenedor1{
-	background-color: #82c3a6;
+	background-color: #d5c75f;
 }
 
 #contenedor1 > div {
@@ -73,46 +77,46 @@ article img{
 	width: 80%;
 }
 
-.contenedor {
+.container {
 	display: flex;
 	flex-direction: row;
 }
 
-.contenedor > div {
+.container2 {
+	display: flex;
+	flex-direction: row;
+}
+
+.container > div {
 	text-align: center;
 	padding: 10px;
 	margin: 10px;
 }
 
-#content img{
-	width: 90%;
-	border: 1px solid black;
-	box-shadow: 4px 8px #02010a;
+.container2 > div {
+	text-align: center;
+	padding: 10px;
+	margin: 10px;
 }
 
-figcaption{
-	text-decoration:underline;
+#imagen1{
+	filter: blur(10px);
+	-webkit-filter: blur(10px);
+	-moz-filter: blur(10px);
+	}
+
+#imagen2, #imagen4, #imagen6{
+	filter: grayscale(100%);
+	-webkit-filter: grayscale(100%);
+	-moz-filter: grayscale(100%);
 }
 
-#imagen1 img{
-	transition-property: transform, box-shadow;
-	transition-duration: 0.5s;
+#imagen3{
+	filter: sepia(90%);
+	-webkit-filter: sepia(90%);
+	-moz-filter: sepia(90%);
 }
 
-#imagen1 img:hover{
-	transform: rotate(10deg);
-	box-shadow: 4px 8px #82c3a6;
-}
-
-#imagen2 img{
-	transition-property: transform, box-shadow;
-	transition-duration: 0.5s;
-}
-
-#imagen2 img:hover{
-	transform: translate(20px, -5px);
-	box-shadow: 4px 8px #82c3a6;
-}
 
 footer{
 	margin: auto;
@@ -127,11 +131,7 @@ footer{
 }
 
 footer section{
-	border: 1px;
-	margin: auto;
-	border: 0;
-	padding: .02em;
-	width: 80%;
+	margin: 30px;
 }
 
 #contacto{
@@ -156,4 +156,8 @@ footer img{
 #derechos{
 	width: 220px;
 	text-align: left;
+}
+
+footer a{
+	color: black;
 }
