@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+         <meta charset="utf-8">
+         <meta name="viewport" content="width=device-width,user-scalable=no">
+         <title>Retratos - Comenzando con la Fotografía</title>
+         <link href="css/estilos_retratos.css" type="text/css" rel="stylesheet">
+         <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+    </head>
+    
+    <body>
+        <header id="banner" class="body">
+        <h1>Comenzando con los Retratos</h1>   
+		<nav>
+        <a href="index.html" id="linkinicio">Inicio</a> 
+        <a href="paisajes.html" id="linkpaisajes">Paisajes </a> 
+        <a href="" id="linkretratos">Retratos</a>
+        </nav>
+        </header>
+        
+<aside id="featured" class="body">
+	<article id="contenedor1">
+    <div class="container">
+    	<div id="imagen1">
+	<img src="imagenes/retrato.jpg" alt="natural">
+    	</div>
+        <div id="imagen2">
+        <img src="imagenes/retrato.jpg" alt="natural">
+        </div>
+         <div id="imagen3">
+        <img src="imagenes/retrato.jpg" alt="natural">
+        </div>
+        </div>
+        
+        <div class="container2">
+    	<div id="imagen4">
+	<img src="imagenes/retrato.jpg" alt="natural">
+    	</div>
+        <div id="imagen5">
+        <img src="imagenes/retrato.jpg" alt="natural">
+        </div>
+         <div id="imagen6">
+        <img src="imagenes/retrato.jpg" alt="natural">
+        </div>
+    </div>
+    </article>
+</aside>
+        
+        
+        
+    <footer class="body">
+    <section id="contacto">
+        <div class="c1">
+            <h1>Contacto</h1>
+            <p>ximena@gmail.com</p>
+            <p>Estado de México</p>
+            <p>Tel: 123456</p>
+        </div>
+    </section>
+    <section id="terminos">
+        <div class="c2">
+            <h1>Términos</h1> 
+            <p>Conoce nuestros términos y condiciones...</p>
+        </div>
+    </section>
+    <section id="redes_sociales">
+    	<div class="c3">
+        <h1>Redes Sociales</h1>
+        <p>Comparte en nuestras redes</p>
+            <img src="imagenes/logo_facebook.png" id="facebook">Comenzando Fotografía<br/>
+            <img src="imagenes/logo_twitter.png" id="twitter">Comenzando Fotografía<br/>
+            <img src="imagenes/logo_instagram.png" id="instagram">Comenzando Fotografía
+        </div>
+	</section>
+    <section id="derechos">
+    	<div class="c4">
+        <h1>Derechos</h1>
+        <p>Copyright - Ximena Martínez - 2020</p>
+        </div>
+        </section>
+    </footer>
+
+
+
+	</body>
+	</html>
+       
