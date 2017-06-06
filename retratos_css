@@ -1,0 +1,158 @@
+@font.face{
+	font-family: "Dancing Script";
+	src: url("DancingScript.otf");
+}
+
+*{
+	margin: 0;
+}
+
+body{
+	background-color: #02010a;
+	font-family: 'Dancing Script', cursive;
+}
+
+header{
+	margin: auto;
+	border: 0;
+	padding: .02em;
+	width: 80%;
+	background: #5b7989;
+	border-radius: 10px 10px 0px 0px;
+	-moz-border-radius: 10px 10px 0px 0px;
+	-webkit-border-radius: 10px 10px 0px 0px;
+	display: flex;
+}
+
+header h1{
+	padding: 0.5em;
+	color: white;
+	text-shadow: 1px 2px 3px #02010a;
+	width: 620px;
+	}
+	
+header nav a{
+	color: white;
+	padding-right: 2em;	
+		}
+
+#linkretratos{
+	text-decoration: none;
+}
+
+article{
+	margin: auto;
+	border: 0;
+	padding: .02em;
+	width: 80%;
+}
+
+#contenedor1{
+	background-color: #d5c75f;
+}
+
+#contenedor1 > div {
+	text-align: center;
+	padding: 10px;
+	margin: 10px;
+}
+
+article img{
+	width: 90%;
+	text-align: center;
+	box-shadow: 2px 2px #02010a;
+}
+
+#content{
+	background-color: #d5c75f;
+	border: 1px;
+	margin: auto;
+	border: 0;
+	padding: .02em;
+	width: 80%;
+}
+
+.container {
+	display: flex;
+	flex-direction: row;
+}
+
+.container2 {
+	display: flex;
+	flex-direction: row;
+}
+
+.container > div {
+	text-align: center;
+	padding: 10px;
+	margin: 10px;
+}
+
+.container2 > div {
+	text-align: center;
+	padding: 10px;
+	margin: 10px;
+}
+
+#imagen1{
+	filter: blur(10px);
+	-webkit-filter: blur(10px);
+	-moz-filter: blur(10px);
+	}
+
+#imagen2, #imagen4, #imagen6{
+	filter: grayscale(100%);
+	-webkit-filter: grayscale(100%);
+	-moz-filter: grayscale(100%);
+}
+
+#imagen3{
+	filter: sepia(90%);
+	-webkit-filter: sepia(90%);
+	-moz-filter: sepia(90%);
+}
+
+
+footer{
+	margin: auto;
+	border: 0;
+	padding: .02em;
+	width: 80%;
+	background-color: #C6d5c5;
+	display: flex;
+	border-radius: 0px 0px 10px 10px;
+	-webkit-border-radius: 0px 0px 10px 10px;
+	-moz-border-radius: 0px 0px 10px 10px;
+}
+
+footer section{
+	border: 1px;
+	margin: auto;
+	border: 0;
+	padding: .02em;
+	width: 80%;
+}
+
+#contacto{
+	width: 220px;
+	text-align: left;
+}
+
+#terminos{
+	width: 220px;
+	text-align: left;
+}
+
+#redes_sociales{
+	width: 220px;
+	text-align: left;
+}
+
+footer img{
+	width:8%;
+}
+
+#derechos{
+	width: 220px;
+	text-align: left;
+}
