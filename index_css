@@ -222,20 +222,21 @@ header h1{
 header nav{
 	text-align: center;
 }
+}
 
 @keyframes contenido-animacion{
 	
 from{
-margin-top: 150%;
+	margin-top: 150%;
 }
 to{
-margin-top: -5%;
+	margin-top: -5%;
 }
 }
 
 #contenido{
-animation-name: contenido-animacion;
-animation-duration: 1s;
+	animation-name: contenido-animacion;
+	animation-duration: 1s;
 }
 
 @-webkit-keyframes contenido-animacion{
