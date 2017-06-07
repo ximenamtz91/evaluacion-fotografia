@@ -22,7 +22,8 @@ body{
 	-moz-border-radius: 10px 10px 0px 0px;
 	-webkit-border-radius: 10px 10px 0px 0px;
 	display: flex;
-}
+	display: -webkit-flex;
+	}
 
 header h1{
 	padding: 2%;
@@ -67,6 +68,8 @@ article img{
 	width: 90%;
 	text-align: center;
 	box-shadow: 2px 2px #02010a;
+	-moz-box-shadow: 2px 2px #02010a;
+	-webkit-box-shadow: 2px 2px #02010a;
 }
 
 #content{
@@ -80,7 +83,9 @@ article img{
 
 .contenedor {
 	display: flex;
+	display: -webkit-flex;
 	flex-direction: row;
+	-webkit-flex-direction: row;
 }
 
 .contenedor > div {
@@ -93,6 +98,8 @@ article img{
 	width: 90%;
 	border: 1px solid black;
 	box-shadow: 4px 8px #02010a;
+	-moz-box-shadow: 4px 8px #02010a;
+	-webkit-box-shadow: 4px 8px #02010a;
 }
 
 figcaption{
@@ -101,22 +108,38 @@ figcaption{
 
 #imagen1 img{
 	transition-property: transform, box-shadow;
+	-moz-transition-property: transform, box-shadow;
+	-webkit-transition-property: transform, box-shadow;
 	transition-duration: 0.5s;
+	-moz-transition-duration: 0.5s;
+	-webkit-transition-duration: 0.5s;
 }
 
 #imagen1 img:hover{
 	transform: rotate(10deg);
+	-moz-transform: rotate(10deg);
+	-webkit-transform: rotate(10deg);
 	box-shadow: 4px 8px #82c3a6;
+	-moz-box-shadow: 4px 8px #82c3a6;
+	-webkit-box-shadow: 4px 8px #82c3a6;
 }
 
 #imagen2 img{
 	transition-property: transform, box-shadow;
+	-moz-transition-property: transform, box-shadow;
+	-webkit-transition-property: transform, box-shadow;
 	transition-duration: 0.5s;
+	-moz-transition-duration: 0.5s;
+	-webkit-transition-duration: 0.5s;
 }
 
 #imagen2 img:hover{
 	transform: translate(20px, -5px);
+	-moz-transform: translate(20px, -5px);
+	-webkit-transform: translate(20px, -5px);
 	box-shadow: 4px 8px #82c3a6;
+	-moz-box-shadow: 4px 8px #82c3a6;
+	-webkit-box-shadow: 4px 8px #82c3a6;
 }
 
 footer{
@@ -126,7 +149,9 @@ footer{
 	width: 80%;
 	background-color: #C6d5c5;
 	display: flex;
+	display: -webkit-flex;
 	flex-direction: row;
+	-webkit-flex-direction: row;
 	border-radius: 0px 0px 10px 10px;
 	-webkit-border-radius: 0px 0px 10px 10px;
 	-moz-border-radius: 0px 0px 10px 10px;
@@ -161,7 +186,6 @@ footer a{
 	color: black;
 }
 
-
 @media all and (max-width: 900px) {
 
 #contenido{
@@ -170,23 +194,89 @@ footer a{
 
 .contenedor{
 	display: flex;
+	display: -webkit-flex;
 	flex-direction: column;
+	-webkit-flex-direction: column;
 }
 
 footer{
-
 	display: flex;
+	display: -webkit-flex;
 	flex-direction: column;
+	-webkit-flex-direction: column;
 	width: 80%;
 }
 
 #banner{
 	display: flex;
+	display: -webkit-flex;
 	flex-direction: column;
+	-webkit-flex-direction: column;
 	width: 80%;
 }
 
 header h1{
 	text-align: center;
 }
+
+header nav{
+	text-align: center;
+}
+
+@keyframes contenido-animacion{
+	
+from{
+margin-top: 150%;
+}
+to{
+margin-top: -5%;
+}
+}
+
+#contenido{
+animation-name: contenido-animacion;
+animation-duration: 1s;
+}
+
+@-webkit-keyframes contenido-animacion{
+	
+from{
+margin-top: 150%;
+}
+to{
+margin-top: -5%;
+}
+}
+
+#contenido{
+-webkit-animation-name: contenido-animacion;
+-webkit-animation-duration: 1s;
+}
+
+@keyframes contenido2-animacion{
+from{
+margin-top: -5%;
+}
+to{
+margin-top: 0%;
+}
+#contenido{
+animation-name: contenido2-animacion;
+animation-duration: 1s;
+}
+
+}
+
+@-webkit-keyframes contenido2-animacion{
+from{
+margin-top: -5%;
+}
+to{
+margin-top: 0%;
+}
+#contenido{
+-webkit-animation-name: contenido2-animacion;
+-webkit-animation-duration: 1s;
+}
+
 }
